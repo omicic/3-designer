@@ -31,28 +31,28 @@
      <article class="container">
          <div>
              <img src="img/works1.jpg" alt="">
-             <h3>Graphic design</h3>
+             <h3>Landing pages</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veniam qui. Alias assumenda
                  doloribus laudantium laboriosam quibusdam numquam qui temporibus.</p>
              <button>read more</button>
          </div>
          <div>
              <img src="img/works2.jpg" alt="">
-             <h3>Web design</h3>
+             <h3>SEO</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veniam qui. Alias assumenda
                  doloribus laudantium laboriosam quibusdam numquam qui temporibus.</p>
              <button>read more</button>
          </div>
          <div>
              <img src="img/works3.jpg" alt="">
-             <h3>Technical SEO</h3>
+             <h3>WordPress</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veniam qui. Alias assumenda
                  doloribus laudantium laboriosam quibusdam numquam qui temporibus.</p>
              <button>read more</button>
          </div>
          <div>
              <img src="img/works4.jpg" alt="">
-             <h3>Technical SEO</h3>
+             <h3>Mob application</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veniam qui. Alias assumenda
                  doloribus laudantium laboriosam quibusdam numquam qui temporibus.</p>
              <button>read more</button>
