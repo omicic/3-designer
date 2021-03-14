@@ -5,7 +5,7 @@ $darkgray: #2e2e2e;
 $yellow: #f3cd52;
 $lightgray: rgba(255, 255, 255, 0.4);
 $white: #fff;
-$padding: 20px 0;
+$padding: 30px 0;
 $transition: .4s ease;
 
 @mixin flex($justify, $align, $direction) {
@@ -14,6 +14,18 @@ $transition: .4s ease;
     flex-direction: $direction;
     align-items: $align;
     justify-content: $justify;
+}
+
+@mixin btn{
+    background-color: $yellow;
+    border: none;
+    padding: 10px 30px;
+    margin: 30px 0;
+    color: $darkgray;
+    &:hover{
+        transition: $transition;
+        color:$gray;
+    }
 }
 
 * {
@@ -57,7 +69,17 @@ a {
     text-decoration: none;
 }
 
-
+hr {
+    width: 70%;
+    margin: 0 auto;
+    border: none;
+    background: $white;
+    height: 1px;
+}
+p{
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
 
 nav {
 
@@ -100,18 +122,65 @@ nav {
 
         h1 {
             padding-top: 100px;
-            font-size: 4rem;
+            font-size: 3rem;
             align-items: center;
         }
 
         h3 {
-            padding: $padding;
+            padding: 10px 0 30px 0;
+            font-size: 1rem;
             text-transform: uppercase;
             align-items: center;
         }
         img{
             margin: 20px 0;
             border: 20px solid $lightgray;
+        }
+    }
+}
+
+.about {
+    background-color: $gray;
+    padding: $padding;    
+
+    article {
+
+        color: $white;
+        text-align: center;
+        @include flex(space-between, center, row);
+        div{
+            flex: 0 0 30%;
+
+            h2{
+                font-size: 1.5rem;
+                margin-bottom: 30px;
+
+            }
+
+            button {
+                @include btn;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.portfolio{
+    @extend .about;
+
+    article {
+
+        div{
+            flex: 0 0 22%;
+
+            img {
+                width: 100%;
+
+            }
+            h2{
+                margin-bottom: 10px;
+
+            }
         }
     }
 }
