@@ -1,20 +1,119 @@
-@import url('https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap');
-:root {
-    --gray: #333333;
-    --darkgray: #2e2e2e;
-    --yellow: #f3cd52;
-    --lightgray: rgba(255,255,255,0.4);
-    --white: #fff;
-    --transition: .4s ease;
-}
+@import url("https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap");
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    font-family: 'Pontano Sans', sans-serif;
-    background: var(--gray);
-    line-height: 1.7;
-    font-size: 16px;
+  font-family: 'Pontano Sans', sans-serif;
+  background: var(#333333);
+  line-height: 1.7;
+  font-size: 16px;
+  color: #2e2e2e;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #f3cd52;
+  padding: 20px 0;
+  width: 100%;
+  position: fixed;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav ul li {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+nav ul li:hover {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+}
+
+.mainHeader {
+  background-color: #f3cd52;
+}
+
+.mainHeader .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.mainHeader .container h1 {
+  padding-top: 100px;
+  font-size: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainHeader .container h3 {
+  padding: 20px 0;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainHeader .container img {
+  margin: 20px 0;
+  border: 20px solid rgba(255, 255, 255, 0.4);
+}
+/*# sourceMappingURL=style.css.map */
