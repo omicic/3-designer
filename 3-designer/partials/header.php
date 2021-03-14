@@ -25,7 +25,7 @@
 
         <div class="container">
             <h1>Billy Joe Millano</h1>
-            <h3>web & graphic designer</h3>
+            <h4>web & graphic designer</h4>
             <img src="img/designer.jpg" alt="">
         </div>
     </header>
